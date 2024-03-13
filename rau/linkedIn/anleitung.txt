@@ -1,4 +1,4 @@
-## Gratis zugang zu LinkedIn Learning
+## Gratis Zugang zu LinkedIn Learning
 ## Informationen hier
 
 https://hub.spengergasse.at/s/zentraler-informatik-dienst/wiki/Linkedin-Learning
@@ -6,3 +6,14 @@ https://hub.spengergasse.at/s/zentraler-informatik-dienst/wiki/Linkedin-Learning
 ##Zustimmungserklärung über:
 
 https://sic.spengergasse.at
+
+
+
+Kurs JavaScript
+
+Linkedin Learning: JavaScript Grundkurs
+https://www.linkedin.com/learning/javascript-grundkurs?u=37766780
+
+
+Linkedin Learning: JavaScript Essential Training
+https://www.linkedin.com/learning/javascript-essential-training-3/welcome?u=37766780
