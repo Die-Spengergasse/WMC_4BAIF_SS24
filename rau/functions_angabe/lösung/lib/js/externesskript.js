@@ -1,0 +1,4 @@
+/**
+ * @author trainer
+ */
+alert("Extern");

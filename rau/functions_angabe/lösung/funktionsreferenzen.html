@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Funktionsreferenzen</title>
+		<script type="text/javascript">
+			function mFktion() {
+				alert("Wer einen Fehler gemacht hat und ihn nicht korrigiert," + "\nbegeht einen zweiten.");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Verwendung von Funktionsreferenzen</h1>
+		<button id="b1">
+			Klick
+		</button>
+		<button id="b2">
+			Klick
+		</button>
+		<script type="text/javascript">
+			document.getElementById("b1").onclick = mFktion;
+			document.getElementById("b2").onclick = function () {
+				
+			}
+		</script>
+	</body>
+</html>

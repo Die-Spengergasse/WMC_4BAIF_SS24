@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Callbacks</title>
+		<script type="text/javascript">
+			function mFktion(a) {
+				alert(a);
+			}
+			function getText(text) {
+				return function() {
+					mFktion(text);
+				};
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Callback-Funktionen</h1>
+		<button id="b1">
+			Klick
+		</button>
+		<button id="b2">
+			Klick
+		</button>
+		<script type="text/javascript">
+			document.getElementById("b1").onclick = function() {
+				mFktion("Gebt mir einen Punkt, wo ich hintreten kann, " + "\nund ich bewege die Erde.");
+			};
+			document.getElementById("b2").onclick = 
+			getText("Es gibt Dinge, die den meisten Menschen unglaublich erscheinen, " + 
+			"\ndie nicht Mathematik studiert haben.");
+		</script>
+	</body>
+</html>
