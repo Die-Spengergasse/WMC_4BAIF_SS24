@@ -1,0 +1,5 @@
+# HOW-TO
+
+Starten des Backends manuell mit folgendem Shell-Commando:
+
+    java -jar slm-rest-api-1.0.2.jar
