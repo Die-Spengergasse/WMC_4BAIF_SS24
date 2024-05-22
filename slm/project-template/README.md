@@ -129,7 +129,7 @@ JSON Response Beispiel:
 
 - Benennen Sie Ihren Projektordner um: **4BAIF_JS-Frontend_ZUNAME_Vorname**
 - Komprimieren (zip, rar, ...) Sie Ihr Projekt: **4BAIF_JS-Frontend_ZUNAME_Vorname.zip**
-- Laden Sie Ihr Projekt auf Moodle hoch - Link: **_[Das Abgabefenster ist noch nicht geöffnet]_**
+- Laden Sie Ihr Projekt auf Moodle hoch - Link: [Moodle-Abgabe](https://moodle.spengergasse.at/mod/assign/view.php?id=225046&forceview=1)
 
 
 ## Endpoints
