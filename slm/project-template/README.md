@@ -82,13 +82,13 @@ oder über das Script `start-api.cmd` gestartet werden.
 Beim ersten GET-Request werden, wenn noch keine Daten vorhanden sind, automatisch einige Test-Datensätze in der DB erzeugt.
 
  
-| Methode | Pfad                                 | Beschreibung |
-|---------|--------------------------------------| ---|
-| GET     | http://localhost:8080/api/v1/model   | Liefert alle Model-Objekte zurück (ohne paging)
-| GET     | http://localhost:8080/api/v1/model/3 | Liefert das Model-Objekt mit der Id 3 zurück
-| POST    | http://localhost:8080/api/v1/model                         | Speichert das gesendete Model-Objekt in der DB
-| PUT     | http://localhost:8080/api/v1/model/3                       | Führt ein Update des Model-Objekts mit der Id 3 durch
-| DELETE  | http://localhost:8080/api/v1/model/3                       | Löscht das Model-Objekt mit der Id 3
+| HTTP-Methoden | Endpoint                             | Beschreibung                                          |
+|---------------|--------------------------------------|-------------------------------------------------------|
+| GET           | http://localhost:8080/api/v1/model   | Liefert alle Model-Objekte zurück (ohne paging)       
+| GET           | http://localhost:8080/api/v1/model/3 | Liefert das Model-Objekt mit der Id 3 zurück          
+| POST          | http://localhost:8080/api/v1/model   | Speichert das gesendete Model-Objekt in der DB        
+| PUT           | http://localhost:8080/api/v1/model/3 | Führt ein Update des Model-Objekts mit der Id 3 durch 
+| DELETE        | http://localhost:8080/api/v1/model/3 | Löscht das Model-Objekt mit der Id 3                  
 
 
 JSON Response Beispiel:
@@ -134,7 +134,7 @@ JSON Response Beispiel:
 
 ## Endpoints
 
-| #   | Endpoint                               |
+| #   | Endpoints                              |
 |-----|----------------------------------------|
 | 1   | http://localhost:8080/api/v1/addresses |
 | 2   | http://localhost:8080/api/v1/animals   |
