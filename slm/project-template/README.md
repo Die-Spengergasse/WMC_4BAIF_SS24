@@ -61,7 +61,7 @@ flowchart TD
 - Die JSON-Daten vom Service sollen in Model-Klassen transferiert werden
 
 **service.js**
-- Soll als JS-Modul implementiert
+- Soll als JS-Modul implementiert werden
 - Alle Hilfs-Functions sollen _private_ sein (kein export)
 - Beinhaltet die CRUD-Operationen und dient als Schnittstelle zum REST-API (Backend)
   - C - (Create) Erfassen von Daten mittels Form und POST an ein REST-API
